@@ -1,0 +1,42 @@
+body {
+  margin-left: 40px;
+  background-color: rgb(154, 170, 216);
+}
+img {
+  width: 140px;
+  height: 140px;
+  margin: 15px;
+  border-radius: 40px;
+  border: 2px solid grey;
+  padding: 8px;
+  background-color: rgb(147, 158, 168);
+  animation-name: image;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+h3 {
+  text-decoration: solid white;
+  color: rgb(3, 96, 99);
+  border: 4px solid aliceblue;
+}
+a {
+  position: absolute;
+  color: blanchedalmond;
+}
+#main {
+  border: 12px groove black;
+}
+@keyframes image {
+  0% {
+    background-color: rgb(147, 192, 235);
+  }
+  25% {
+    background-color: rgb(72, 125, 185);
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: rgb(136, 13, 173);
+  }
+}
